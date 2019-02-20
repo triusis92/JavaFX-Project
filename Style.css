@@ -1,0 +1,36 @@
+
+.root{
+    -fx-background-color: #383838;
+}
+.label{
+    -fx-text-fill: #e8e8e8;
+}
+.button{
+    -fx-background-color: #AB4642;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+}
+.button-blue{
+    -fx-background-color: #7cafc2;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+}
+.radio-color{
+    -fx-text-background-color: #FFFFFF;
+    -fx-background-radius: 4;
+    }
+#bold-label{
+    -fx-font-weight: bold;
+}
+.date-picker-popup > .month-year-pane {
+    -fx-padding: 0.588883em 0.5em 0.666667em 0.5em; /* 7 6 8 6 */
+    -fx-background-color: derive(-fx-box-border,30%), 
+        linear-gradient(to bottom, derive(#AB4642,-3%), 
+                                   derive(#AB4642,5%) 50%, 
+                                   derive(#AB4642,-3%));
+    -fx-background-insets: 0 0 0 0, 0 0 1 0;
+}
+.scroll-pane > .viewport  { -fx-background-color: transparent; 
+							-fx-text-background-color: #7cafc2;
+							-fx-text-fill: #FFFFFF;
+}
